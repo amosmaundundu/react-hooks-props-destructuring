@@ -9,9 +9,12 @@ function App() {
 
   return (
     <div className="App">
-      <MovieCard title={title} genres={genresArr} />
+       <MovieCard title={title} posterSrc={posterURL} genres={genresArr} />
+      
     </div>
   );
 }
+
+
 
 export default App;
